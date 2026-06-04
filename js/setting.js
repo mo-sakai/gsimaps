@@ -2,7 +2,8 @@ var CONFIG = {};
 
 // この状態で表示された時はcookieを優先
 
-CONFIG.DEFAULTHASH = /#5\/36.10461[\d]*\/140.08455[\d]*\/&base=std&ls=std&disp=1&vs=c1j0h0k0l0u0t0z0r0s0m0f1/g;
+
+CONFIG.DEFAULTHASH = /#18\/35.66989\/139.73836\/&base=std&ls=std&disp=1&vs=c1j0h0k0l0u0t0z0r0s0m0f1/g;
 
 //
 CONFIG.USECOOKIE = true;
@@ -544,7 +545,7 @@ CONFIG.TOPMESSAGE = null;
 // 閉じた時のID != 現在のID または EXPIRES時間過ぎた場合にお知らせ復活
 
 // 初期位置
-CONFIG.DEFAULT = { CENTER: [36.104611, 140.084556], ZOOM: 5 };
+CONFIG.DEFAULT = { CENTER: [35.66989, 139.73836], ZOOM: 18 };
 
 // レイヤータイプリスト
 CONFIG.LAYERTYPELIST = {
